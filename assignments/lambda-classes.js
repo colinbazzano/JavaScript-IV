@@ -59,3 +59,132 @@ class ProjectManager extends Instructor {
 }//this closes ProjectManager
 
 // OBJECTS START HERE!!!
+// Person Objects found below
+const john = new Person({
+    name: 'John',
+    age: 56,
+    location: 'USA'
+});
+
+const robbie = new Person({
+    name: 'Robbie',
+    age: 7,
+    location: 'Connecticut'
+});
+
+const sophia = new Person({
+    name: 'Sophia',
+    age: 11,
+    location: 'Massachusetts'
+});
+
+// Person Objects end here
+
+// Instructor Objects found below
+
+const brit = new Instructor({
+    name: 'Brit',
+    age: 31,
+    location: 'Canada',
+    specialty: 'Web Fundamentals',
+    favLanguage: 'JavaScript',
+    catchPhrase: 'I love Ada!'
+});
+
+const josh = new Instructor({
+    name: 'Josh',
+    age: 34,
+    location: 'Utah',
+    specialty: 'Lambda Precourse',
+    favLanguage: 'Python',
+    catchPhrase: 'keep your code D.R.Y'
+});
+
+const ryan = new Instructor({
+    name: 'Ryan',
+    age: 32,
+    location: 'Utah',
+    specialty: 'Arrays',
+    favLanguage: 'JavaScript',
+    catchPhrase: 'Classes in JavaScript are just functions'
+});
+
+// Instructor Objects end here
+
+// Student Objects found below
+
+const colin = new Student({
+    name: 'Colin',
+    age: 23,
+    location: 'Connecticut',
+    previousBackground: 'Photographer',
+    className: 'Web24',
+    favSubjects: [
+        'HTML',
+        'CSS',
+        'JavaScript'
+    ]
+});
+
+const lily = new Student({
+    name: 'Lily',
+    age: 21,
+    location: 'Oregon',
+    previousBackground: 'Musician',
+    className: 'Web25',
+    favSubjects: [
+        'Python',
+        'Java',
+        'Ruby'
+    ]
+});
+
+const griffin = new Student({
+    name: 'Griffin',
+    age: 22,
+    location: 'New York',
+    previousBackground: 'Genius',
+    className: 'Cornell',
+    favSubjects: [
+        'Python',
+        'Rust',
+        'C++'
+    ]
+});
+
+// Student Objects end here
+
+// Project Manager Objects found below
+
+const joseph = new ProjectManager({
+    name: 'Joseph',
+    age: 27,
+    location: 'Chicago',
+    specialty: 'Front-End',
+    favLanguage: 'JavaScript',
+    catchPhrase: 'You got this!',
+    gradClassName: 'WebPT9',
+    favInstructor: 'Josh'
+});
+
+const justin = new ProjectManager({
+    name: 'Justin',
+    age: 25,
+    location: 'Oregon',
+    specialty: 'debugging',
+    favLanguage: 'Python',
+    catchPhrase: 'Keep pushing!',
+    gradClassName: 'Web20',
+    favInstructor: 'Brit'
+});
+
+const daisy = new ProjectManager({
+    name: 'Daisy',
+    age: 24,
+    location: 'California',
+    specialty: 'making clean code',
+    favLanguage: 'Rust',
+    catchPhrase: 'Practice makes perfect',
+    gradClassName: 'Web01',
+    favInstructor: 'Brit'
+});

@@ -22,7 +22,7 @@ class Instructor extends Person {
         return `Today we are learning about ${subject}`;
     }//this closes demo method
     grade(student, subject) {
-        `${student.name} receives a perfect score on ${subject}`;
+        return `${student.name} receives a perfect score on ${subject}`;
     }//this closes grade method
 }//this closes Instructor
 
@@ -188,3 +188,40 @@ const daisy = new ProjectManager({
     gradClassName: 'Web01',
     favInstructor: 'Brit'
 });
+
+//Project Manager Objects end here
+
+// console.logs start here! invoking woo!!!
+//Person console.logs
+console.log(john.age);
+console.log(robbie.age);
+console.log(sophia.age);
+console.log(john.speak());
+console.log(robbie.speak());
+console.log(sophia.speak());
+
+//Instructor console.logs
+
+console.log(brit.speak());
+console.log(ryan.speak());
+console.log(brit.demo('JavaScript'));
+console.log(josh.grade(lily, 'Python'));
+console.log(josh.favLanguage);
+console.log(brit.catchPhrase);
+
+// Student console.logs
+
+console.log(colin.listsSubjects());
+console.log(griffin.PRAssignment(griffin, 'Rust'));
+console.log(lily.sprintChallenge(lily, 'Ruby'));
+console.log(griffin.favSubjects);
+console.log(colin.className);
+
+// Project Manager console.logs
+
+console.log(joseph.standUp('Web24'));
+console.log(justin.debugsCode(colin, 'React'));
+console.log(daisy.gradClassName);
+console.log(joseph.favLanguage);
+console.log(justin.specialty);
+console.log(daisy.catchPhrase);
